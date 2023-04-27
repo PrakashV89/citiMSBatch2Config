@@ -5,6 +5,7 @@ server:
 spring:
   application:
     name: API-GATEWAY
+ 
   cloud:
     gateway:
       routes:
