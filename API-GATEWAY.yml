@@ -5,8 +5,6 @@ server:
 spring:
   application:
     name: API-GATEWAY
-  config:
-    import: configserver:http://${CONFIG_SERVER_URL:localhost}:9296
   cloud:
     gateway:
       routes:
